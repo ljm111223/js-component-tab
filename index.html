@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tab组件实现</title>
+
+</head>
+<body>
+    <div class="tab-container">
+        Tab1
+    </div>
+    <div class="tab-container">
+        Tab2
+    </div>
+    <script src="tab.js"></script>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script>
+        var tab1 = new Tab( document.querySelectorAll('.tab-container')[0] )
+        var tab2 = new Tab( document.querySelectorAll('.tab-container')[1] )
+    </script>
+</body>
+</html>
